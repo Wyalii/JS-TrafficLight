@@ -1,0 +1,37 @@
+.background{ 
+    height: 450px; 
+    width: 900px; 
+    background-color: antiquewhite; 
+    display: flex ;
+    align-items: center; 
+    justify-content: center; 
+    gap: 30px;
+} 
+
+.border{ 
+    height: 340px; 
+    width: 660px; 
+    border: 1px solid black; 
+    border-radius: 9px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-evenly;
+} 
+
+#next{ 
+    height: 340px; 
+    width: 150px; 
+    font-size: xx-large; 
+    cursor: pointer;
+} 
+
+.circle{ 
+    height: 200px; 
+    width: 200px; 
+    background-color: gray; 
+    border-radius: 50%;
+} 
+
+.circle.prepare{ 
+    background-color: yellow;
+}
